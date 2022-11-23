@@ -1,0 +1,19 @@
+{
+  "name": "semantic-release-example",
+  "version": "0.0.0-development",
+  "author": "Jeffrey Wu <jeffreywu1996@gmail.com>",
+  "private": true,
+  "release": {
+    "branches": ["main"]
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffreywu1996/semantic-release-example.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  }
+}
