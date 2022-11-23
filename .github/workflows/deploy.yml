@@ -12,7 +12,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Deploying
         run: |
-        echo "Deploying service"
         sleep 10
         ps
         pwd
