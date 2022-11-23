@@ -5,8 +5,8 @@ on:
       - main
 jobs:
   deploy:
-    needs: release
     name: deploy
+    needs: release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
