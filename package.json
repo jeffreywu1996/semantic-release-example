@@ -4,7 +4,9 @@
   "author": "Jeffrey Wu <jeffreywu1996@gmail.com>",
   "private": true,
   "release": {
-    "branches": ["main"]
+    "branches": [
+      "main"
+    ]
   },
   "scripts": {
     "semantic-release": "semantic-release"
