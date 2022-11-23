@@ -5,10 +5,13 @@ on:
       - main
 jobs:
   deploy:
+    needs: release
+    name: deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: |
+      - name: Deploying
+        run: |
         echo "Deploying service"
         sleep 10
         ps
