@@ -15,6 +15,13 @@
     "type": "git",
     "url": "https://github.com/jeffreywu1996/semantic-release-example.git"
   },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ],
   "devDependencies": {
     "semantic-release": "^19.0.5"
   }
