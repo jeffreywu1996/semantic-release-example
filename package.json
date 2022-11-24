@@ -6,6 +6,13 @@
   "release": {
     "branches": [
       "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git",
+      "@semantic-release/github"
     ]
   },
   "scripts": {
@@ -15,13 +22,6 @@
     "type": "git",
     "url": "https://github.com/jeffreywu1996/semantic-release-example.git"
   },
-  "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/changelog",
-    "@semantic-release/npm",
-    "@semantic-release/git",
-    "@semantic-release/github"
-  ],
   "devDependencies": {
     "semantic-release": "^19.0.5"
   }
