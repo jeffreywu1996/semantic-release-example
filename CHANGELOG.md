@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/jeffreywu1996/semantic-release-example/compare/v1.1.1...v1.1.2) (2022-11-24)
+
+
+### Bug Fixes
+
+* Add semantic-release/npm ([801617f](https://github.com/jeffreywu1996/semantic-release-example/commit/801617fadad5f4303e6d0daa6467cdbed4a2f63d))
+
 ## [1.1.1](https://github.com/jeffreywu1996/semantic-release-example/compare/v1.1.0...v1.1.1) (2022-11-24)
 
 
