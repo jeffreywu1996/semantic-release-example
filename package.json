@@ -23,6 +23,11 @@
     "url": "https://github.com/jeffreywu1996/semantic-release-example.git"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.6",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "semantic-release": "^19.0.5"
   }
 }
